@@ -1,0 +1,36 @@
+/* Estilos da Lixeira */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8d7da; /* Fundo suave para lixeira */
+}
+
+h2 {
+    text-align: center;
+    color: #721c24; /* Vermelho escuro para o título */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #ffc107; /* Amarelo para restaurar */
+    color: #000;
+}
+
+button:hover {
+    background-color: #e0a800; /* Amarelo mais escuro */
+}
