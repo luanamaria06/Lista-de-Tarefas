@@ -26,9 +26,7 @@ header h1{
 margin-left: 200px;
 }
 
-main div{
-    display: flex;
-}
+
 
 input[type="text"] {
     width: 50%;
@@ -78,6 +76,24 @@ li button:hover {
     background-color: #c82333; 
 }
 
+main div{
+    display: flex;
+    align-items: center;
+}
+
+.polar{
+    height: 269px;
+}
+
+.urso{
+    height: 269px;
+    margin-left: 100px;
+}
+
+.imagens_lixo{
+    margin: 10px;
+}
+
 .lixeira{
     height: 50px;
     padding: 10px 20px;
@@ -87,10 +103,6 @@ li button:hover {
     border-radius: 5px;
     cursor: pointer;
 
-}
-
-.ursowrite{
-    margin-left: 1000px;
 }
 
 footer {
