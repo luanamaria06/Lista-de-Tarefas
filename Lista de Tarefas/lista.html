@@ -20,22 +20,25 @@
         
     </header>
 
-    <div>
-        <div>
-            <main>
+        
+        <main>
+            <div>
                 <input type="text" id="taskInput" placeholder="Adicione uma nova tarefa...">
-                <button onclick="addTask()">Adicionar Tarefa</button>
-            
-                <ul id="taskList"></ul>
+                <button class="adicionartarefas" onclick="addTask()">Adicionar</button>
+            </div>
 
-                <button class="lixeira" onclick="location.href='lixeira.html'" aria-label="Acessar Lixeira">
-                    <i class="fas fa-trash-alt"></i></button>
-            </main>
-        </div>
-        <div class="img_ursowrite">
+            <ul id="taskList"></ul>
+
+            <button class="lixeira" onclick="location.href='lixeira.html'" aria-label="Acessar Lixeira">
+                <i class="fas fa-trash-alt"></i>
+            </button>
+
+            <div class="ursowrite">
             <img src="imagens/Web_Photo_Editor_processed.jpg" alt="urso escrevendo">
-        </div>
-    </div>
+            </div>
+        </main>
+        
+        
     <footer>
         <p>&copy; 2024 - Lista de Tarefas</p>
     </footer>
