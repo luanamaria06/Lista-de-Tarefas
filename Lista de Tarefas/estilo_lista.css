@@ -1,8 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Pacifico', cursive;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color:#efc7bf ;
+}
+header{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.topo{
+    margin: 20px;
+}
+
+header img{
+    height: 150px;
+    width: 150px;
 }
 
 h2 {
@@ -52,6 +72,10 @@ li button:hover {
 
 .lixeira{
     height: 50px;
+}
+
+.img_ursowrite{
+    margin-left: 100px;
 }
 
 footer {

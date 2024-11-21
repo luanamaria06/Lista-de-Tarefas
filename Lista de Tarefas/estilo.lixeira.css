@@ -1,14 +1,19 @@
-/* Estilos da Lixeira */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Pacifico', cursive;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f8d7da; /* Fundo suave para lixeira */
+    background-color: #f8d7da; 
 }
 
 h2 {
     text-align: center;
-    color: #721c24; /* Vermelho escuro para o título */
+    color: #721c24; 
 }
 
 ul {
@@ -27,10 +32,10 @@ li {
 }
 
 button {
-    background-color: #ffc107; /* Amarelo para restaurar */
+    background-color: #ffc107; 
     color: #000;
 }
 
 button:hover {
-    background-color: #e0a800; /* Amarelo mais escuro */
+    background-color: #e0a800; 
 }

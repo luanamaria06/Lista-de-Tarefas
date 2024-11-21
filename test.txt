@@ -20,3 +20,12 @@ p {
 #d9a263
 
 #cea180
+
+
+
+ background-color:#efc7bf ;
+    background-image: url(imagens/milkmochabear\ write.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
