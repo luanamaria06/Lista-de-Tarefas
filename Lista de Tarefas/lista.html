@@ -10,31 +10,41 @@
 </head>
 <body>
     <header>
-        <div>
-            <img src="imagens/notes milk sem fundo.jpg">
-        </div>  
         
-        <div>
-            <h1>Lista de Tarefas</h1>
-        </div>
-        <div class="topo">
             <img src="imagens/notes milk sem fundo.jpg">
-        </div> 
+          
+            <h1>Lista de Tarefas</h1>
+        
+            <img src="imagens/notes milk sem fundo.jpg">
+        
     </header>
 
-        
         <main>
-            <div>
+            <div class="campo_txt">
                 <input type="text" id="taskInput" placeholder="Adicione uma nova tarefa...">
                 <button class="adicionartarefas" onclick="addTask()">Adicionar</button>
             </div>
 
-            <ul id="taskList"></ul>
+            <h2>Tarefas Pendentes</h2>
 
-            <div class="lixo">
-                <button class="lixeira" onclick="location.href='lixeira.html'" aria-label="Acessar Lixeira">
-                    <i class="fas fa-trash-alt"></i>
-                </button>
+            <section class="tarefas">
+            <ul id="taskList"></ul>
+            </section>
+            
+            <h2>Tarefas Concluídas</h2>
+            
+            <section class="tarefas">
+            <ul id="completedTasksList"></ul>
+            </section>
+
+            <div>
+                <button class="home" onclick="location.href='Capa_da_lista.html'">Home</button>
+
+                <div class="lixo">
+                    <button class="lixeira" onclick="location.href='lixeira.html'" aria-label="Acessar Lixeira">
+                        <i class="fas fa-trash-alt"></i>
+                    </button>
+                </div>
             </div>
 
             <div class="imagens">
