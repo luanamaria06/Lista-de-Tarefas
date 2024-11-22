@@ -38,7 +38,7 @@ input[type="text"] {
 .adicionartarefas{
     margin: 10px;
     padding: 15px 15px;
-    background-color: #28a745;
+    background-color: #d89b51;
     color: white;
     border: none;
     border-radius: 5px;
@@ -68,15 +68,16 @@ li {
 }
 
 li button {
-    background-color: #dc3545;
+    background-color: #46241e;
     border: none; 
     border-radius: 5px;
     cursor: pointer;
+    color: #fff;
 
 }
 
 li button:hover {
-    background-color: #c82333; 
+    background-color: #341b17; 
 }
 
 main div{
@@ -84,19 +85,10 @@ main div{
     align-items: center;
 }
 
-.polar{
-    height: 269px;
-}
-
-.urso{
-    height: 269px;
-    margin-left: 850px;
-}
-
 .home{
     height: 50px;
     padding: 10px 20px;
-    background-color: #28a745;
+    background-color: #d89b51;
     color: white;
     border: none;
     border-radius: 5px;
@@ -109,7 +101,7 @@ main div{
 .lixeira{
     height: 50px;
     padding: 10px 20px;
-    background-color: #28a745;
+    background-color: #46241e;
     color: white;
     border: none;
     border-radius: 5px;
@@ -118,8 +110,11 @@ main div{
 }
 
 footer {
-    position: absolute;
     font-size: 1rem;
     color:black;
+    display: flex;        
+    justify-content: center;
+    align-items: center;     
+
 }
 

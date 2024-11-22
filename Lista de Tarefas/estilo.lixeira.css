@@ -31,11 +31,29 @@ li {
     justify-content: space-between;
 }
 
-button {
-    background-color: #ffc107; 
-    color: #000;
+.voltar{
+    background-color: #d89b51; 
+    color: #fff;
+    border: none;  
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
 }
 
-button:hover {
-    background-color: #e0a800; 
+
+li button {
+    background-color: #46241e; 
+    color: #fff;
+    border: none;  
+    border-radius: 5px; 
+    padding: 5px 10px; 
+}
+
+footer {
+    font-size: 1rem;
+    color:black;
+    display: flex;        
+    justify-content: center;
+    align-items: center;     
+
 }
