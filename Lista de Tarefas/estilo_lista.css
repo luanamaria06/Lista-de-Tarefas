@@ -22,6 +22,10 @@ header img{
     margin-top: 20px;
 }
 
+.topo{
+    margin-left: 300px;
+}
+
 header h1{
 margin-left: 200px;
 }
@@ -87,11 +91,15 @@ main div{
 
 .urso{
     height: 269px;
-    margin-left: 100px;
+    margin-left: 850px;
 }
 
-.imagens_lixo{
+.imagens{
     margin: 10px;
+}
+
+.lixo{
+    align-items: end;
 }
 
 .lixeira{
